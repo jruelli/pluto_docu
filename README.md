@@ -1,8 +1,8 @@
-![Build Status](https://gitlab.com/pages/sphinx/badges/master/pipeline.svg)
+![Build Status](https://gitlab.com/pluto_ipek/pluto_docu/badges/master/pipeline.svg)
 
 ---
 
-Example [sphinx] documentation website using GitLab Pages.
+Pluto Robot [sphinx] documentation website using GitLab Pages.
 
 Learn more about GitLab Pages at https://about.gitlab.com/product/pages/ and the official
 documentation https://docs.gitlab.com/ee/user/project/pages/.
@@ -27,41 +27,18 @@ documentation https://docs.gitlab.com/ee/user/project/pages/.
 This project's static Pages are built by [GitLab CI][ci], following the steps
 defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
 
-```
-image: python:3.7-alpine
-
-test:
-  stage: test
-  script:
-  - pip install -U sphinx
-  - sphinx-build -b html . public
-  only:
-  - branches
-  except:
-  - master
-
-pages:
-  stage: deploy
-  script:
-  - pip install -U sphinx
-  - sphinx-build -b html . public
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-```
-
 ## Requirements
 
 - [Sphinx][]
+- sphinx_rtd_theme
 
 ## Building locally
 
 To work locally with this project, you'll have to follow the steps below:
 
 1. Fork, clone or download this project
-1. [Install][sphinx] Sphinx
+1. [Install][sphinx] Sphinx `pip install -U sphinx`
+2. Install sphinx_rtd_theme `pip install sphinx_rtd_theme`
 1. Generate the documentation: `make`
 
 The generated HTML will be located in the location specified by `conf.py`,
@@ -87,6 +64,10 @@ unless you want to contribute back to the upstream project.
 No issues reported yet.
 
 ---
+
+Forked from https://gitlab.com/pages/sphinx
+
+Which is forked from:
 
 Forked from https://gitlab.com/Eothred/sphinx
 
