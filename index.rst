@@ -11,6 +11,7 @@ Welcome to GitLab Pages with Sphinx's documentation!
    :caption: Contents:
 
    docs/introduction/0_introduction
+   docs/getting_started/0_getting_started
 
 Indices and tables
 ==================
