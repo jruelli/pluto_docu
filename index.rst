@@ -10,6 +10,8 @@ Welcome to GitLab Pages with Sphinx's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   docs/introduction/0_introduction
+
 Indices and tables
 ==================
 

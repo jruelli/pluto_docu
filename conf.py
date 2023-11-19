@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'GitLab Pages with Sphinx'
-copyright = '2020, Miles Davis'
-author = 'Miles Davis'
+copyright = '2023, Pluto IPEK'
+author = 'Pluto IPEK team'
 
 # The full version, including alpha/beta/rc tags
 release = 'https://gitlab.com/pages/sphinx'
