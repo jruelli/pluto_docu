@@ -19,6 +19,7 @@ Our documentation is hosted on GitLab, a platform for collaborative software dev
 We take advantage of GitLab Pages, a built-in feature, to automatically build and publish our documentation to a
 specific domain.
 This means that our documentation is always up-to-date with the latest changes in our project repository.
+The documentation is built using "Rolling Releases".
 
 The automatic build option is done via the **.gitlab-ci-yml** script.
 
@@ -36,14 +37,12 @@ https://pluto_ipek.gitlab.io/pluto_docu/
 This URL will take you to the hosted documentation website, where you can explore the various chapters and sections of
 our documentation.
 
-To access the sources please visit: https://gitlab.com/pluto_ipek/pluto_docu
+To access the sources please visit: https://gitlab.com/pluto_ipek/pluto_docu.
 
 Contributing to the Documentation
 -----------------------------------
 
 We welcome contributions to our documentation from the community. If you find errors, have suggestions for improvements,
 or want to add content, please feel free to create merge requests or issues on our GitLab repository.
-
-Thank you for choosing Plutorobot, and we hope you find our documentation helpful and informative.
 
 Let's get started with exploring the documentation!
