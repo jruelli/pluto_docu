@@ -1,11 +1,11 @@
 Documentation Setup
-===================
+-------------------
 
 Welcome to the "Documentation Setup" section of our documentation. In this chapter, we will provide an overview of how
 our documentation is organized and how it can be accessed and published.
 
 About This Documentation
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our documentation is designed to be a comprehensive resource for understanding, using, and contributing to the
 Plutobot project. For that purpose Sphinx is used.
@@ -13,7 +13,7 @@ The documentation covers a wide range of topics, including project introduction,
 and advanced configurations.
 
 GitLab Integration
-------------------
+~~~~~~~~~~~~~~~~~~
 
 Our documentation is hosted on GitLab, a platform for collaborative software development.
 We take advantage of GitLab Pages, a built-in feature, to automatically build and publish our documentation to a
@@ -29,7 +29,7 @@ For more information please visit the gitlab documentation:
 https://docs.gitlab.com/ee/user/project/pages/
 
 Accessing the Documentation
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can access our documentation by visiting the following URL:
 https://pluto_ipek.gitlab.io/pluto_docu/
@@ -40,7 +40,7 @@ our documentation.
 To access the sources please visit: https://gitlab.com/pluto_ipek/pluto_docu.
 
 Contributing to the Documentation
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We welcome contributions to our documentation from the community. If you find errors, have suggestions for improvements,
 or want to add content, please feel free to create merge requests or issues on our GitLab repository.
