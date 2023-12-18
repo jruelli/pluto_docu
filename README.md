@@ -46,7 +46,7 @@ Using windows: To work locally with this project, you'll have to follow the step
 2. Install chocolatey (https://chocolatey.org/install)
 3. Install make `choco install make`
 4. [Install][sphinx] Sphinx `choco install sphinx`
-5. Install sphinx_rtd_theme `pip install sphinx_rtd_theme`
+5. Install sphinx_rtd_theme & sphinx-autobuild `pip install sphinx_rtd_theme sphinx-autobuild`
 6. Generate the documentation (chose your desired option): `make`
 
 The generated HTML will be located in the location specified by `conf.py`,
