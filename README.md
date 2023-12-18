@@ -1,11 +1,13 @@
+# PLUTO DOCS
 ![Build Status](https://gitlab.com/pluto_ipek/pluto_docu/badges/master/pipeline.svg)
+
+The generated website can be visited here: https://pluto_ipek.gitlab.io/pluto_docu/
 
 ---
 
 Pluto Robot [sphinx] documentation website using GitLab Pages.
 
-Learn more about GitLab Pages at https://about.gitlab.com/product/pages/ and the official
-documentation https://docs.gitlab.com/ee/user/project/pages/.
+Main webpage of the PLUTO project: https://plutorobot.de/
 
 ---
 
@@ -17,7 +19,6 @@ documentation https://docs.gitlab.com/ee/user/project/pages/.
 - [Requirements](#requirements)
 - [Building locally](#building-locally)
 - [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
 - [Troubleshooting](#troubleshooting)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -39,7 +40,7 @@ To work locally with this project, you'll have to follow the steps below:
 1. Fork, clone or download this project
 1. [Install][sphinx] Sphinx `pip install -U sphinx`
 2. Install sphinx_rtd_theme `pip install sphinx_rtd_theme`
-1. Generate the documentation: `make`
+3. Generate the documentation (follow further instructions of make): `make`
 
 The generated HTML will be located in the location specified by `conf.py`,
 in this case `_build/html`.
@@ -53,12 +54,6 @@ project's **Settings**.
 
 Read more about [user/group Pages][userpages] and [project Pages][projpages].
 
-## Did you fork this project?
-
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
-
 ## Troubleshooting
 
 No issues reported yet.
@@ -70,6 +65,9 @@ Forked from https://gitlab.com/pages/sphinx
 Which is forked from:
 
 Forked from https://gitlab.com/Eothred/sphinx
+
+Learn more about GitLab Pages at https://about.gitlab.com/product/pages/ and the official
+documentation https://docs.gitlab.com/ee/user/project/pages/.
 
 [ci]: https://about.gitlab.com/product/continuous-integration/
 [userpages]: https://docs.gitlab.com/ee/user/project/pages/getting_started_part_one.html#user-and-group-website-examples

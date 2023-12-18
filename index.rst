@@ -12,6 +12,7 @@ Welcome to GitLab Pages with Sphinx's documentation!
 
    docs/introduction/0_introduction
    docs/getting_started/0_getting_started
+   docs/robotic_platform/0_robotic_platform
 
 Indices and tables
 ==================
