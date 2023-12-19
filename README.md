@@ -7,7 +7,8 @@ The generated website can be visited here: https://pluto_ipek.gitlab.io/pluto_do
 
 Pluto Robot [sphinx] documentation website using GitLab Pages.
 
-Main webpage of the PLUTO project: https://plutorobot.de/
+Learn more about GitLab Pages at https://about.gitlab.com/product/pages/ and the official
+documentation https://docs.gitlab.com/ee/user/project/pages/.
 
 ---
 
@@ -35,12 +36,18 @@ defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
 
 ## Building locally
 
-To work locally with this project, you'll have to follow the steps below:
+Please notice that there are various ways to get the required software running. 
+We chose the one that looks the most straight-forward to us.  
+Feel free to contact us in the case there are problems with the installation or if you find improvements.
+
+Using windows: To work locally with this project, you'll have to follow the steps below:
 
 1. Fork, clone or download this project
-1. [Install][sphinx] Sphinx `pip install -U sphinx`
-2. Install sphinx_rtd_theme `pip install sphinx_rtd_theme`
-3. Generate the documentation (follow further instructions of make): `make`
+2. Install chocolatey (https://chocolatey.org/install)
+3. Install make `choco install make`
+4. [Install][sphinx] Sphinx `choco install sphinx`
+5. Install sphinx_rtd_theme & sphinx-autobuild `pip install sphinx_rtd_theme sphinx-autobuild`
+6. Generate the documentation (chose your desired option): `make`
 
 The generated HTML will be located in the location specified by `conf.py`,
 in this case `_build/html`.
