@@ -61,6 +61,5 @@ To interact with pluto_pico an own protocol has been implemented. Following comm
      - | :code:`--help`: show help about command
        | :code:`--build-ver`: APP_BUILD_VERSION
 
-Developing Pluto_pico
----------------------
-Pluto_pico is based on zephyr.
+.. include:: 1_pluto_pico_developing.rst
+
