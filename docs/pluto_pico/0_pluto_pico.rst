@@ -24,9 +24,9 @@ Pluto_pico uses the Raspberry Pi Pico W microcontroller.
 
 Connections
 -----------
-Pluto_pico can be controlled from the outside using bluetooth or usb. This will give other groups the opportunity to
-test the motor drivers, to control pluto remotely via bluetooth and to control the pluto_pico via a usb connection from
-the Raspberry Pi (or any other usb host).
+Pluto_pico can be controlled via the usb interface. This will give other groups the opportunity to
+test the motor drivers and to control the pluto_pico via a usb connection from
+the Raspberry Pi or any other usb host.
 Both connection will use the pluto_protocol to interact with. More infos about the pluto_protocol can be found at the
 chapter "Working with Pluto_pico"
 
@@ -39,7 +39,11 @@ in order to test and verify the drive system.
 
 Working with Pluto_pico
 -----------------------
-To interact with pluto_pico an own protocol has been implemented. Following command has been implemented:
+Pluto-pico has been developed in a way that future developers don't have to focus extensively on the embedded part.
+That's why pluto-pico can be used on its own and its usage is kind of self-explanatory.
+The following tutorial will explain how to connect to pluto-pico.
+
+
 
 .. list-table:: Pluto Protocol
    :widths: 25 50 50
@@ -56,10 +60,34 @@ To interact with pluto_pico an own protocol has been implemented. Following comm
    * - version
      - | **usage:** :code:`version` or :code:`version <argument>`
        | **description:** print back the version
-       |                  of the pluto_pico firmware
+       |                      of the pluto_pico firmware
        | no argument given := APP_VERSION_STRING
      - | :code:`--help`: show help about command
        | :code:`--build-ver`: APP_BUILD_VERSION
+   * - relays
+     - | **usage:** :code:`relay <argument>` or
+       |                    :code:`relay <argument> <value>`
+       |                    depending on arument
+       | **description:** print back the provided message
+       | no argument or message given := relays -\-help
+     - | :code:`--help`: show help about command
+       | :code:`--set-bytes <value>`:
+       |        Set relays via a bit mask.
+       |        Value in decimal from 0..255.
+       |        Examples for values:
+       |        :code:`0`: all relays OFF
+       |        :code:`5`: r_2 and r_0 ON, others OFF
+       |        :code:`255`: all relays ON
+       |
+       | :code:`--get-relay <name>`:
+       |        get current state of relay
+       | :code:`--set-relay <name> <state[1/0]>`:
+       |        set state of relay.
+       |        Value in decimal 0..1;
+       |        1: turn on relay
+       |        0: turn off relay
+       | :code:`--list-relays`:
+       |        show all relay names
 
 .. include:: 1_pluto_pico_developing.rst
 
