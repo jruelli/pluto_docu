@@ -41,3 +41,4 @@ in order to test and verify the drive system.
 .. include:: 1_pluto_working_with_pico.rst
 .. include:: 2_pluto_pico_developing.rst
 .. include:: 3_pluto_pico_relays.rst
+.. include:: 4_pluto_pico_motors.rst
