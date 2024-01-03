@@ -16,18 +16,18 @@ the motor_driver part.
 Microcontroller
 ---------------
 Pluto_pico is an embedded microcontroller that will be used to control the motor_drivers.
-Pluto_pico uses the Raspberry Pi Pico W microcontroller.
+Pluto_pico uses the Raspberry Pi Pico microcontroller.
 
-.. image:: picow-pinout.svg
+.. image:: pico-pinout.svg
   :width: 400
   :alt: available connections for pluto_pico
 
 Connections
 -----------
-Pluto_pico can be controlled from the outside using bluetooth or usb. This will give other groups the opportunity to
-test the motor drivers, to control pluto remotely via bluetooth and to control the pluto_pico via a usb connection from
-the Raspberry Pi (or any other usb host).
-Both connection will use the pluto_protocol to interact with. More infos about the pluto_protocol can be found at the
+Pluto_pico can be controlled via the usb interface. This will give other groups the opportunity to
+test the motor drivers and to control the pluto_pico via a usb connection from
+the Raspberry Pi or any other usb host.
+The connection will use the pluto_protocol to interact with. More infos about the pluto_protocol can be found at the
 chapter "Working with Pluto_pico"
 
 The advantage of this system is additionally that it will be very easy for other teammembers to interact with the motors
@@ -37,29 +37,8 @@ in order to test and verify the drive system.
   :width: 400
   :alt: available connections for pluto_pico
 
-Working with Pluto_pico
------------------------
-To interact with pluto_pico an own protocol has been implemented. Following command has been implemented:
 
-.. list-table:: Pluto Protocol
-   :widths: 25 50 50
-   :header-rows: 1
-
-   * - Command
-     - Usage & Description
-     - Supported Arguments
-   * - echo
-     - | **usage:** :code:`echo <message>` or :code:`echo <argument>`
-       | **description:** print back the provided message
-       | no argument or message given := echo -\-help
-     - | :code:`--help`: show help about command
-   * - version
-     - | **usage:** :code:`version` or :code:`version <argument>`
-       | **description:** print back the version
-       |                  of the pluto_pico firmware
-       | no argument given := APP_VERSION_STRING
-     - | :code:`--help`: show help about command
-       | :code:`--build-ver`: APP_BUILD_VERSION
-
-.. include:: 1_pluto_pico_developing.rst
-
+.. include:: 1_pluto_working_with_pico.rst
+.. include:: 2_pluto_pico_developing.rst
+.. include:: 3_pluto_pico_relays.rst
+.. include:: 4_pluto_pico_motors.rst

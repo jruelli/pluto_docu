@@ -10,7 +10,7 @@ It is necessary to install any dependencies, zephyr and the zephyr sdk.
 We highly recommend to test zephyr and get some understanding by building the blinky example.
 Following the zephyr tutorial the blinky example for the raspberry_pico can be built via:
 
-:code:`west build -p always -b rpi_pico samples\basic\blinky`
+:code:`west build -p always -b rpi_pico samples\\basic\\blinky`
 
 External pin mapping on the Pico W is identical to the Pico, but note that internal RP2040 GPIO lines 23, 24, 25, and 29
 are routed to the Infineon module on the W. Since GPIO 25 is routed to the on-board LED on the Pico, but to the Infineon
