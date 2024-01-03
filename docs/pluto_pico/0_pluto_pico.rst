@@ -16,9 +16,9 @@ the motor_driver part.
 Microcontroller
 ---------------
 Pluto_pico is an embedded microcontroller that will be used to control the motor_drivers.
-Pluto_pico uses the Raspberry Pi Pico W microcontroller.
+Pluto_pico uses the Raspberry Pi Pico microcontroller.
 
-.. image:: picow-pinout.svg
+.. image:: pico-pinout.svg
   :width: 400
   :alt: available connections for pluto_pico
 
@@ -27,7 +27,7 @@ Connections
 Pluto_pico can be controlled via the usb interface. This will give other groups the opportunity to
 test the motor drivers and to control the pluto_pico via a usb connection from
 the Raspberry Pi or any other usb host.
-Both connection will use the pluto_protocol to interact with. More infos about the pluto_protocol can be found at the
+The connection will use the pluto_protocol to interact with. More infos about the pluto_protocol can be found at the
 chapter "Working with Pluto_pico"
 
 The advantage of this system is additionally that it will be very easy for other teammembers to interact with the motors
@@ -37,57 +37,7 @@ in order to test and verify the drive system.
   :width: 400
   :alt: available connections for pluto_pico
 
-Working with Pluto_pico
------------------------
-Pluto-pico has been developed in a way that future developers don't have to focus extensively on the embedded part.
-That's why pluto-pico can be used on its own and its usage is kind of self-explanatory.
-The following tutorial will explain how to connect to pluto-pico.
 
-
-
-.. list-table:: Pluto Protocol
-   :widths: 25 50 50
-   :header-rows: 1
-
-   * - Command
-     - Usage & Description
-     - Supported Arguments
-   * - echo
-     - | **usage:** :code:`echo <message>` or :code:`echo <argument>`
-       | **description:** print back the provided message
-       | no argument or message given := echo -\-help
-     - | :code:`--help`: show help about command
-   * - version
-     - | **usage:** :code:`version` or :code:`version <argument>`
-       | **description:** print back the version
-       |                      of the pluto_pico firmware
-       | no argument given := APP_VERSION_STRING
-     - | :code:`--help`: show help about command
-       | :code:`--build-ver`: APP_BUILD_VERSION
-   * - relays
-     - | **usage:** :code:`relay <argument>` or
-       |                    :code:`relay <argument> <value>`
-       |                    depending on arument
-       | **description:** print back the provided message
-       | no argument or message given := relays -\-help
-     - | :code:`--help`: show help about command
-       | :code:`--set-bytes <value>`:
-       |        Set relays via a bit mask.
-       |        Value in decimal from 0..255.
-       |        Examples for values:
-       |        :code:`0`: all relays OFF
-       |        :code:`5`: r_2 and r_0 ON, others OFF
-       |        :code:`255`: all relays ON
-       |
-       | :code:`--get-relay <name>`:
-       |        get current state of relay
-       | :code:`--set-relay <name> <state[1/0]>`:
-       |        set state of relay.
-       |        Value in decimal 0..1;
-       |        1: turn on relay
-       |        0: turn off relay
-       | :code:`--list-relays`:
-       |        show all relay names
-
-.. include:: 1_pluto_pico_developing.rst
-
+.. include:: 1_pluto_working_with_pico.rst
+.. include:: 2_pluto_pico_developing.rst
+.. include:: 3_pluto_pico_relays.rst
