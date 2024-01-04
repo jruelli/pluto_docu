@@ -13,30 +13,19 @@ the motor_driver part.
   :width: 400
   :alt: Pluto with highlighted pluto_pico
 
-Microcontroller
----------------
+System
+------
 Pluto_pico is an embedded microcontroller that will be used to control the motor_drivers.
-Pluto_pico uses the Raspberry Pi Pico microcontroller.
+
+Microcontroller
+~~~~~~~~~~~~~~~
+
+Pluto_pico uses the Raspberry Pi Pico microcontroller. To communicate with pluto-pico simply connect a usb-cable to and
+open a serial connection. A list of supported commands can be found in the table below.
 
 .. image:: pico-pinout.svg
   :width: 400
   :alt: available connections for pluto_pico
-
-Connections
------------
-Pluto_pico can be controlled via the usb interface. This will give other groups the opportunity to
-test the motor drivers and to control the pluto_pico via a usb connection from
-the Raspberry Pi or any other usb host.
-The connection will use the pluto_protocol to interact with. More infos about the pluto_protocol can be found at the
-chapter "Working with Pluto_pico"
-
-The advantage of this system is additionally that it will be very easy for other teammembers to interact with the motors
-in order to test and verify the drive system.
-
-.. image:: pluto_pico-Connections.drawio.png
-  :width: 400
-  :alt: available connections for pluto_pico
-
 
 .. include:: 1_pluto_working_with_pico.rst
 .. include:: 2_pluto_pico_developing.rst
