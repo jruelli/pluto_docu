@@ -1,5 +1,5 @@
 # PLUTO DOCS
-![Build Status](https://gitlab.com/pluto_ipek/pluto_docu/badges/master/pipeline.svg)
+![Build Status](https://gitlab.com/pluto_ipek/pluto_docu/badges/main/pipeline.svg)
 
 The generated website can be visited here: https://pluto_ipek.gitlab.io/pluto_docu/
 
