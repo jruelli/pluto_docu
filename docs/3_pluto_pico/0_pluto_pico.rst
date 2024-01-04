@@ -1,13 +1,25 @@
 Pluto Pico
 ================
-This chapter will explain everything you need to know about Pluto_pico.
+We noticed that in previous groups the project was lacking embedded software developers.
+Each group always started their project by running motors from scratch.
+In order for the project to grow each year this needs to stop!
+
+That's why pluto-pico exists. Pluto-pico encapsulates any embedded software part and to make it easy to use and most
+suitable for pluto and its future developers.
+
+Pluto can be used independently to any system. All it needs is a USB host in order to connect to the pluto-shell.
+That can be a raspberry pi but also any kind of computer.
+
+Pluto-pico is also cheap since it runs on a 7.50€ raspberry-pico making so it is possible for for any project
+participant to have one pluto-pico to test and verify.
+
+Pluto-shell provides a user-friendly and easy to use interface to test motordrivers or sensors that are used for Pluto.
+
+Since the application has been developed as a zephyr application it is also possible to exchange the microcontroller or
+do any changes on the embedded part.
 
 Overview
 --------
-We noticed that in previous groups the project was lacking embedded software developers.
-That's why we tried to focus on a microcontroller that can be used independently.
-This will give future teams the possibility to exchange parts of their system such as changing the pluto_ros or
-the motor_driver part.
 
 .. image:: pluto_pico-Connections.drawio.svg
   :width: 400

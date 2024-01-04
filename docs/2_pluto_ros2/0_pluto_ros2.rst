@@ -1,21 +1,37 @@
-Robotic Platform
-================
-This chapter will give a brief overview of the used Robotic Operating system and the reasons that led to the
-chosen system components.
+Pluto_ROS2
+==========
+This chapter will give a brief overview of Pluto_ROS2
 
-PLUTO uses **ROS2** (Robot Operating System) as a robotic platform as it provides a robust framework
+Pluto_ROS2 uses **ROS2** (Robot Operating System) as a robotic platform as it provides a robust framework
 for developing robot software and managing various components.
-Combining a Raspberry Pi running ROS with a microcontroller running microROS is a common approach to build a
-robot system with real-time capabilities and high-level control.
-Communication between Microcontroller and ROS: To facilitate communication between the microcontroller running microROS
-and the Raspberry Pi running ROS, ROS communication infrastructure allows the following options:
 
-*   **ROS Topics:** You can publish and subscribe to ROS topics from both the Raspberry Pi and the microcontroller.
-    Topics allow you to send and receive data between different parts of your robot. You can use ROS libraries for
-    microcontrollers like rosserial or micro-ROS to set up communication.
+Overview
+--------
 
-*   **ROS Services:** Services in ROS allow you to call remote procedures on one device from the other.
-    This is useful for requesting specific actions or services from your microcontroller.
+.. image:: pluto_ros2-Pluto_ROS2.drawio.svg
+  :width: 400
+  :alt: Overview pluto_pico
 
-*   **ROS Actions:** Actions provide a more flexible way to manage long-running tasks and feedback.
-    Actions can be used when a more complex control over the robot's behavior is needed.
+System
+------
+
+.. list-table:: Pluto-ROS2 parts
+   :widths: 25 10 10 50
+   :header-rows: 1
+
+   * - Part
+     - Amount
+     - Price per Unit
+     - Sources
+   * - | Raspberry Pi 4
+     - | 1
+     - | 68.79€
+     - | `Raspberry Pi 4B 4GB Ram <https://www.amazon.de/Raspberry-Pi-ARM-Cortex-A72-Bluetooth-Micro-HDMI/dp/B07TC2BK1X/ref=sr_1_3?keywords=raspberry%2Bpi%2B4&qid=1704374583&sr=8-3&th=1>`_
+   * - | LD19 Lidar Sensor
+     - | 1
+     - | 75.50€
+     - | `LD19 Lidar Sensor <https://www.amazon.de/youyeetoo-D300-Resistant-Raspberry-Tutorial/dp/B0B1QCV4XR?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2FOS450W76C0S>`_
+   * - | Sum Pluto-ROS2
+     - | 1
+     - | 144.29€
+     - |
