@@ -26,7 +26,6 @@ Overview
   :alt: Overview pluto_pico
 
 
-
 System
 ------
 
@@ -66,9 +65,17 @@ System
      - | 1
      - | 4.45€
      - | `ebay <https://www.ebay.de/itm/255283194246?hash=item3b70106986:g:uSEAAOSwpYxb4K-E>`_
+   * - | ADS1115 ADC expansion board
+     - | 1
+     - | 3.86€
+     - | `ebay <https://www.ebay.de/itm/314579056640?hash=item493e5f7800:g:j4AAAOSwl41kY09E&amdata=enc%3AAQAIAAAA4JBY%2FW3wMDBpBfAvy4gtvMJBzdWWrLkU%2B%2B9XY7MwP5p%2FVffpJrippvg7C9K9IqcsxvIugEqgOBVNlRN%2Bja3IBzlSxKqDsgFNTouLRk0Gv1QjZCfnMcdxxMZy83pJ%2BZx9KZ81FWEvs2PlVBOhjA4EpphsXUIURjBH4Wdw8HZKhfPcicis3xzzkD6cOZt9jRlBz2jywSbbWDsCXzo9mpqsSrq%2F8FHhhItsKN%2B3KvxaJVdcrbANoirZrOlqJuIUq8iqCtkCzKrgoc2clfyMDQC2UyiLXTLip6q1V%2FnJ2OxzFTHx%7Ctkp%3ABFBM7u6hg55j>`_
+   * - | LM2596 DC-DC step down converter (set of 3)
+     - | 1
+     - | 5.29€
+     - | `ebay <https://www.ebay.de/itm/153752438218?hash=item23cc5c05ca:g:efAAAOSwE6RenXFX&amdata=enc%3AAQAIAAAA4F92ysK9idftMd2%2BZsEislhMcxwoDLmcCUv6CNrTOa6LOW8s%2FGOh0bgdTEV7u%2FEHONU8M%2BYkkaK2AHr2UOYYxLiBtuNxEsN3V6brnv8pKZEZRO%2BZZKuzsgu%2FZQAIH9b1xHx5UcEcmbSo%2Be9DmfObvKXYDzziC065%2Fsw%2BcLstaSqtc6hKuf9n7U22LWO6VY0mitPgw47t71cfMfcM9JQxEFAEtz9OwlLh%2BxiZh44VnZtcKcfXK4T4NL6twgq%2FCeXKWqzAx8YNtFXTScsC1v6i2w9NTyzSy6MQzOGbRIuQqRRL%7Ctkp%3ABFBMlqHRg55j>`_
    * - | Sum Pluto-Pico
      - | 1
-     - | 125.16€
+     - | 134.31€
      - |
 
 .. image:: pluto_prototype_Steckplatine.png

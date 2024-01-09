@@ -83,3 +83,11 @@ Happy developing!
        | **pluto-pico version:** >= v0.1.0
      - | :code:`--build-ver`
        | APP_BUILD_VERSION
+   * - :code:`relays`
+     - | control relays of pluto-pico
+       | **pluto-pico version:** >= v0.1.0
+     - | :code:`--set-bytes <value[0..0xFF]>`
+       | :code:`--set-relay <name> <state[0||1]>`
+       | :code:`--list-relays`
+       | **pluto-pico version:** >= v0.2.0:
+       | :code:`--get-relay <name>`
