@@ -25,6 +25,8 @@ Overview
   :width: 400
   :alt: Overview pluto_pico
 
+
+
 System
 ------
 
@@ -38,28 +40,40 @@ System
      - Sources
    * - | Raspberry Pi Pico
      - | 1
-     - | 7.49€
-     - | `Raspberry Pi pico <https://www.az-delivery.de/en/products/raspberry-pi-pico>`_
+     - | 4.90€
+     - | `ebay <https://www.ebay.de/itm/115918606531?epid=22044590666&hash=item1afd4990c3:g:dMEAAOSw8URlJQnf&amdata=enc%3AAQAIAAAA4DcJlt4N%2BUo5ESF2nL6sEE1Z8vscSjs7rtdPV1rj7UPk3HQD7aX5ACOETRJOO8lguV3%2FsVuf1NKyFjaZP77u65yKwB7AdVG7%2FBi9%2F07w4wZzk18RhgFCwmH9W7DuQZZ9cxFRnVEVL7aP6R%2Flp8KYHOenVIyUVrrfJe2Askh9J%2BnvnbyhYWYuS3xMYc0kvNf3HELsAXFBSlQLxToXs5sSlYTN16pJC1fqdfoSx3XUYPM3nLwJEwWOkuwZKGkmxXhgPIgK67hBaiDgXvH%2F9aFdxeBLKVDZwpsZrWgFX8DAFi6N%7Ctkp%3ABk9SR4Cokt6dYw>`_
    * - | 8 channel relays
      - | 1
-     - | 12.99€
-     - | `8 channel relay <https://www.az-delivery.de/en/products/8-relais-modul>`_
+     - | 7.85€
+     - | `ebay <https://www.ebay.de/itm/255283290288?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D20230804085259%26meid%3D3cc84dd01340425396b0fad0b22eec94%26pid%3D101195%26rk%3D2%26rkt%3D12%26sd%3D262499095094%26itm%3D255283290288%26pmt%3D1%26noa%3D0%26pg%3D4429486%26algv%3DSimPLWebV1EmbeddedAuctionsCPCAuto&_trksid=p4429486.c101195.m1851&amdata=cksum%3A2552832902883cc84dd01340425396b0fad0b22eec94%7Cenc%3AAQAIAAABEKQWTaSuKxcpq1j5hG%252Bz9F%252B8zK5%252FOpV48i2l8raehpQfnQ5X0AU9EGQjixlmPSYko2wwpYOChaX%252B4yLbiiEed6dOtVjRM6XBFiiCIgoNowo3YwdWfu5u4cl6ayhkqBbpuFmRE2hzR5GK25waek05ETCwlEI0bCcWt3%252BwojF7NmvVNmJxebAsnfTIT1pRegzYUfOg8F3XDdshZnw402mcf%252B1cMNa9dFizJDMPLG2A9TD59UUQAhrauQ2I4KPTuWuUsnetH89cmfzObxbaPEfO49M2kj446g0mPNxuJGwCOdalslyMu6O6qgqSX4chYSB4HuKn2PgzQoVyGaD8WAkPpPzb%252FQZdsq3%252B8WGOXe1aE4I%252F%7Campid%3APL_CLK%7Cclp%3A4429486&epid=6055142329>`_
    * - | MDD10A dual motor driver
      - | 1
      - | 23.90€
-     - | `cytron-mdd10a <https://botland.de/dc-motortreiber/15818-cytron-mdd10a-zweikanaltreiber-fur-dc-30v-10a-motoren-5904422350444.html>`_
+     - | `cytron <https://botland.de/dc-motortreiber/15818-cytron-mdd10a-zweikanaltreiber-fur-dc-30v-10a-motoren-5904422350444.html>`_
    * - | NEO 6M GPS module
      - | 1
      - | 6.90€
-     - | `neo-6m-gps <https://www.berrybase.de/u-blox-neo-6m-gps-ttl-empfaenger-inkl.-antenne>`_
-   * - | VL53L0X
-     - | 2
+     - | `berrybase <https://www.berrybase.de/u-blox-neo-6m-gps-ttl-empfaenger-inkl.-antenne>`_
+   * - | VL53L0X distance sensor
+     - | 4
      - | 7.49€
-     - | `vl53l0x <https://www.az-delivery.de/products/vl53l0x-time-of-flight-tof-laser-abstandssensor?variant=32344531370080>`_
+     - | `az-delivery <https://www.az-delivery.de/products/vl53l0x-time-of-flight-tof-laser-abstandssensor?variant=32344531370080>`_
+   * - | MCP9808 temperature sensor
+     - | 8
+     - | 5.90€
+     - | `berrybase <https://www.berrybase.de/adafruit-mcp9808-hochpraezisions-i2c-temperatur-sensor-breakout-board>`_
+   * - | HMC5883L compass sensor
+     - | 1
+     - | 4.45€
+     - | `ebay <https://www.ebay.de/itm/255283194246?hash=item3b70106986:g:uSEAAOSwpYxb4K-E>`_
    * - | Sum Pluto-Pico
      - | 1
-     - | 66.26€
+     - | 125.16€
      - |
+
+.. image:: pluto_prototype_Steckplatine.png
+  :width: 400
+  :alt: Steckplatine pluto_pico
 
 Microcontroller
 ~~~~~~~~~~~~~~~
