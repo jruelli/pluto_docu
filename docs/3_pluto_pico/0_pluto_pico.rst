@@ -25,6 +25,8 @@ Overview
   :width: 400
   :alt: Overview pluto_pico
 
+
+
 System
 ------
 
@@ -68,6 +70,10 @@ System
      - | 1
      - | 125.16€
      - |
+
+.. image:: pluto_prototype_Steckplatine.png
+  :width: 400
+  :alt: Steckplatine pluto_pico
 
 Microcontroller
 ~~~~~~~~~~~~~~~
