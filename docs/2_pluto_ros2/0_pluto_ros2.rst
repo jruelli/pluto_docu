@@ -15,6 +15,23 @@ Overview
 System
 ------
 
+.. list-table:: Pluto-ros2 parts functions
+   :widths: 25 10 10 50
+   :header-rows: 1
+
+   * - Functional component
+     - Amount
+     - Positioning
+     - Function
+   * - | LiDar
+     - | 1
+     - | 360 degree freedom to
+       | visualize environment
+       | Please review datasheet
+       | for dimensions
+     - | Visualizes environment
+       | with 360 degree freedom
+
 .. list-table:: Pluto-ROS2 parts
    :widths: 25 10 10 50
    :header-rows: 1
