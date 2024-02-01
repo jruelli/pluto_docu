@@ -76,12 +76,13 @@ System
      - | Determines current
        | position and speed
        | of Pluto
-   * - | Compass
+   * - | Orientation
      - | 1
      - | Needs to be away of
        | any magnets and flat
      - | Determines current
-       | orientation of Pluto
+       | orientation &
+       | acceleration of Pluto
    * - | Temperature sensor
      - | 3
      - | Needs to be at
@@ -137,10 +138,10 @@ System
      - | 8
      - | 5.90€
      - | `berrybase_mcp9808 <https://www.berrybase.de/adafruit-mcp9808-hochpraezisions-i2c-temperatur-sensor-breakout-board>`_
-   * - | HMC5883L compass sensor
+   * - | BNO055 9-axis absolute orientation sensor
      - | 1
-     - | 4.45€
-     - | `ebay_hmc5883l <https://www.ebay.de/itm/255283194246?hash=item3b70106986:g:uSEAAOSwpYxb4K-E>`_
+     - | 37.99€
+     - | `ebay_bno055 <https://www.ebay.de/itm/254684372176?epid=16040223917&hash=item3b4c5f1cd0:g:iJ8AAOSwoPdfMq8L>`_
    * - | ADS1115 ADC expansion board
      - | 1
      - | 3.86€
@@ -152,7 +153,7 @@ System
      - | `ebay_lm2596 <https://www.ebay.de/itm/153752438218?hash=item23cc5c05ca:g:efAAAOSwE6RenXFX&amdata=enc%3AAQAIAAAA4F92ysK9idftMd2%2BZsEislhMcxwoDLmcCUv6CNrTOa6LOW8s%2FGOh0bgdTEV7u%2FEHONU8M%2BYkkaK2AHr2UOYYxLiBtuNxEsN3V6brnv8pKZEZRO%2BZZKuzsgu%2FZQAIH9b1xHx5UcEcmbSo%2Be9DmfObvKXYDzziC065%2Fsw%2BcLstaSqtc6hKuf9n7U22LWO6VY0mitPgw47t71cfMfcM9JQxEFAEtz9OwlLh%2BxiZh44VnZtcKcfXK4T4NL6twgq%2FCeXKWqzAx8YNtFXTScsC1v6i2w9NTyzSy6MQzOGbRIuQqRRL%7Ctkp%3ABFBMlqHRg55j>`_
    * - | Sum Pluto-Pico
      - | 1
-     - | 134.31€
+     - | 167.85€
      - |
 
 .. image:: pluto_prototype_Steckplatine.png
