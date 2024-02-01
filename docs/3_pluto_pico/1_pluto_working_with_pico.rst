@@ -91,3 +91,33 @@ Happy developing!
        | :code:`--list-relays`
        | **pluto-pico version:** >= v0.2.0:
        | :code:`--get-relay <name>`
+   * - :code:`motor1`
+     - | control motor1 of pluto-pico
+       | **pluto-pico version:** >= v0.3.0
+     - | :code:`set-dir <state[0||1]>`
+       | :code:`set-speed <value[0..100]>`
+       | (unsafe) :code:`Zset-speed <value[0..100]>`
+       | :code:`get-speed`
+       | :code:`get-dir`
+       | :code:`get-motor`
+       | :code:`config-acc-rate <value[0..100]>`
+       | :code:`config-brak-rate <value[0..100]>`
+       | :code:`config-acc-rate-delay <value[0..0xFFFF]ms>`
+       | :code:`config-brak-rate-delay <value[0..0xFFFF]ms>`
+   * - :code:`motor2`
+     - | control motor2 of pluto-pico
+       | **pluto-pico version:** >= v0.3.0
+     - | :code:`set-dir <state[0||1]>`
+       | :code:`set-speed <value[0..100]>`
+       | (unsafe) :code:`Zset-speed <value[0..100]>`
+       | :code:`get-speed`
+       | :code:`get-dir`
+       | :code:`get-motor`
+       | :code:`config-acc-rate <value[0..100]>`
+       | :code:`config-brak-rate <value[0..100]>`
+       | :code:`config-acc-rate-delay <value[0..0xFFFF]ms>`
+       | :code:`config-brak-rate-delay <value[0..0xFFFF]ms>`
+   * - :code:`motors`
+     - | control motors of pluto-pico at once
+       | **pluto-pico version:** >= v0.4.0
+     - | :code:`set <speed_m1[0..100]> <dir_m1[0||1]> <speed_m2[0..100]> <dir_m2[0||1]>`
