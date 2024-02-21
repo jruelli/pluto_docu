@@ -14,6 +14,7 @@ Welcome to Pluto's documentation!
    docs/1_getting_started/0_getting_started
    docs/2_pluto_ros2/0_pluto_ros2
    docs/3_pluto_pico/0_pluto_pico
+   docs/electrics/0_electrics
 
 Indices and tables
 ==================
