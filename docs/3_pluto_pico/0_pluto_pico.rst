@@ -174,3 +174,4 @@ Simply connect a usb-cable to and open a serial connection. A list of supported 
 .. include:: 2_pluto_pico_developing.rst
 .. include:: 3_pluto_pico_relays.rst
 .. include:: 4_pluto_pico_motors.rst
+.. include:: 5_pluto_pico_proximity.rst

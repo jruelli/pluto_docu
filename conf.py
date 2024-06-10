@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'GitLab Pages with Sphinx'
-copyright = '2023, Pluto IPEK'
+project = 'Pluto'
+copyright = '2024, Pluto IPEK'
 author = 'Pluto IPEK team'
 
 # The full version, including alpha/beta/rc tags

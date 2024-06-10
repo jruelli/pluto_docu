@@ -1,8 +1,8 @@
-Pluto_ROS2
+Pluto_PI
 ==========
-This chapter will give a brief overview of Pluto_ROS2
+This chapter will give a brief overview of Pluto_PI
 
-Pluto_ROS2 uses **ROS2** (Robot Operating System) as a robotic platform as it provides a robust framework
+Pluto_PI uses **ROS2** (Robot Operating System) as a robotic platform as it provides a robust framework
 for developing robot software and managing various components.
 
 Overview
