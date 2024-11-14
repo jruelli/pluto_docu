@@ -36,11 +36,11 @@ All commands have a common rule-set:
 * All commands are safe to use. No hardware can be destroyed when putting in commands.
   Exceptions are actuators, so motors and relays. Please take care when using those and go through
   the in-depth explanation of them before using them.
-* All commands have help subcommands. Any command and even any subcommand can be called with a "--help" parameter.
+* All commands have help subcommands. Any command and even any subcommand can be called with a "-\-help" parameter.
 * All commands/configuration are volatile. The configuration is lost when the raspberry-pico is power-cycled.
 * If a permanent configuration is desired please have a look at pluto-control.
 * Using <Tab> to autocomplete and <Arrow-up> for previous commands improves usability
-* In-depth documentation of commands can be found in: **TODO**
+* In-depth documentation of commands can be found at the Pluto Pico section.
 
 Example interactions
 ~~~~~~~~~~~~~~~~~~~~

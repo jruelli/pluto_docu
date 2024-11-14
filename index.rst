@@ -1,5 +1,12 @@
-Welcome to Pluto's documentation!
-====================================================
+.. image:: Picture1.png
+  :width: 100
+  :align: center
+  :alt: Pluto 6.0
+
+Welcome to **PLUTO** a cyber-physical system Pluto developed by the IPEK institute at
+KIT (Karlsruhe Institute of Technology).
+This is the software documentation for the project.
+Please refer to https://plutorobot.de/ for the main projects page.
 
 .. toctree::
    :maxdepth: 2
@@ -11,8 +18,5 @@ Welcome to Pluto's documentation!
    docs/3_pluto_pico/0_pluto_pico
    docs/4_contribution/0_contribution
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
+Our partners
+============

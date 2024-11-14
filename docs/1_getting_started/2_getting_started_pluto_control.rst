@@ -28,7 +28,7 @@ Starting pluto-control
 
 Select pluto_control as your Run Configuration and run it.
 
-You should see the GUI application Pluto-control popping up.
+You should see the GUI application Pluto-control popping up. Here is a small summary of all the functions.
 
 .. image:: pluto-control.png
   :width: 800
