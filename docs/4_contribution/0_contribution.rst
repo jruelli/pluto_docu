@@ -1,7 +1,26 @@
 Contribution
 ------------
-Welcome to the "Contribution" section of our documentation. In this chapter, we will provide an overview of how
-our documentation is organized and how it can be accessed and published.
+
+Thank you for showing interest in contributing to our project.
+
+Contributions are always welcome! ❤️
+
+You can help us on the following topics:
+
+- Documentation (https://gitlab.com/pluto-ipek/pluto_docu)
+- Embedded Software (https://gitlab.com/pluto-ipek/pluto_pico)
+- Python GUI application (https://gitlab.com/pluto-ipek/pluto-control)
+- Mobile development (https://digao.framer.wiki/pluto-beer-deliver-app-development)
+- Improvements in the electronics of the robot
+- Development of mechanical components
+
+You can find out more about our Pluto team at https://plutorobot.de/pluto-6-0-team/.
+
+Please feel free to reach out to our contributors!
+
+Maybe you are also interesting in partnering or sponsoring our project?
+
+Feel free to contact us aswell!
 
 About This Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~

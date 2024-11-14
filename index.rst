@@ -38,7 +38,6 @@ Please refer to https://plutorobot.de/ for the main projects page.
 
    docs/0_introduction/0_introduction
    docs/1_getting_started/0_getting_started
-   docs/2_pluto_control/0_pluto_control
    docs/3_pluto_pico/0_pluto_pico
    docs/4_contribution/0_contribution
 
