@@ -1,8 +1,20 @@
 Introduction
 ============
-Welcome to the introduction chapter of the Plutorobot documentation. In this section, we will provide an overview of the
-Plutorobot project, its goals, and its significance in the field of robotics.
+Welcome to software documentation for Plutito (Pluto 6.0).
+
 Please refer to https://plutorobot.de/ for the main projects page.
+
+.. image:: pluto-6.0.jpeg
+  :width: 800
+  :alt: Pluto 6.0
+
+.. image:: groupPicture.jpeg
+  :width: 800
+  :alt: GroupPicture1
+
+.. image:: groupPicture2.jpeg
+  :width: 800
+  :alt: GroupPicture2
 
 Overview
 --------
