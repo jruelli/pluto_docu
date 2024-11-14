@@ -1,7 +1,6 @@
-Documentation Setup
--------------------
-
-Welcome to the "Documentation Setup" section of our documentation. In this chapter, we will provide an overview of how
+Contribution
+------------
+Welcome to the "Contribution" section of our documentation. In this chapter, we will provide an overview of how
 our documentation is organized and how it can be accessed and published.
 
 About This Documentation

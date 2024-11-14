@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'GitLab Pages with Sphinx'
-copyright = '2023, Pluto IPEK'
+project = 'Pluto'
+copyright = '2024, Pluto IPEK'
 author = 'Pluto IPEK team'
 
 # The full version, including alpha/beta/rc tags
@@ -54,3 +54,7 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['docs/_static']
+
+html_sidebars = {
+    '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html']
+}

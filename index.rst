@@ -1,22 +1,46 @@
-.. GitLab Pages with Sphinx documentation master file, created by
-   sphinx-quickstart on Thu Jan  9 10:28:38 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. image:: Kitlogo-768x356.jpg
+   :width: 150
+   :align: left
+   :alt: Pluto Image 1
 
-Welcome to Pluto's documentation!
-====================================================
+.. image:: ipek.jpeg
+   :width: 150
+   :align: right
+   :alt: Pluto Image 2
+
+.. image:: Picture1.png
+   :width: 150
+   :align: center
+   :alt: Pluto Image 3
+
+Pluto
+=====
+
+Welcome to **PLUTO**! Pluto is an autonomous delivery robot for fresh beverages developed by the IPEK institute at
+KIT (Karlsruhe Institute of Technology).
+
+
+
+.. image:: groupPicture.jpeg
+  :width: 800
+  :alt: Pluto 6.0
+
+
+
+This is the software documentation for the project.
+
+Please refer to https://plutorobot.de/ for the main projects page.
+
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Content
 
    docs/0_introduction/0_introduction
    docs/1_getting_started/0_getting_started
-   docs/2_pluto_ros2/0_pluto_ros2
+   docs/2_pluto_control/0_pluto_control
    docs/3_pluto_pico/0_pluto_pico
+   docs/4_contribution/0_contribution
 
-Indices and tables
-==================
+.. figure:: groupPicture2.jpeg
 
-* :ref:`genindex`
-* :ref:`search`
