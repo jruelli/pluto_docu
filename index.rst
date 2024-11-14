@@ -1,16 +1,40 @@
+.. image:: Kitlogo-768x356.jpg
+   :width: 150
+   :align: left
+   :alt: Pluto Image 1
+
+.. image:: ipek.jpeg
+   :width: 150
+   :align: right
+   :alt: Pluto Image 2
+
 .. image:: Picture1.png
-  :width: 100
-  :align: center
+   :width: 150
+   :align: center
+   :alt: Pluto Image 3
+
+Pluto
+=====
+
+Welcome to **PLUTO**! Pluto is an autonomous delivery robot for fresh beverages developed by the IPEK institute at
+KIT (Karlsruhe Institute of Technology).
+
+
+
+.. image:: groupPicture.jpeg
+  :width: 800
   :alt: Pluto 6.0
 
-Welcome to **PLUTO** a cyber-physical system Pluto developed by the IPEK institute at
-KIT (Karlsruhe Institute of Technology).
+
+
 This is the software documentation for the project.
+
 Please refer to https://plutorobot.de/ for the main projects page.
 
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Content
 
    docs/0_introduction/0_introduction
    docs/1_getting_started/0_getting_started
@@ -18,5 +42,5 @@ Please refer to https://plutorobot.de/ for the main projects page.
    docs/3_pluto_pico/0_pluto_pico
    docs/4_contribution/0_contribution
 
-Our partners
-============
+.. figure:: groupPicture2.jpeg
+

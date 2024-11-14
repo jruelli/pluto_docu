@@ -62,7 +62,7 @@ The configuration is stored at "pluto_control.conf" and loaded automatically on 
 pluto-control. To configure your robot you can click on the "⚙️" symbol.
 
 .. image:: pluto-cnotrol-config.png
-  :width: 800
+  :width: 400
   :alt: Pluto-Control-Config
 
 Click OK to save the configuration. The saved configuration is sent to pluto-pico when the connection is established.
