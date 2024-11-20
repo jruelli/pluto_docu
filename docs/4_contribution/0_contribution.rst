@@ -14,6 +14,10 @@ You can help us on the following topics:
 - Improvements in the electronics of the robot
 - Development of mechanical components
 
+.. image:: groupPicture.jpeg
+  :width: 800
+  :alt: Team Pluto 6.0
+
 You can find out more about our Pluto team at https://plutorobot.de/pluto-6-0-team/.
 
 Please feel free to reach out to our contributors!

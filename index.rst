@@ -16,12 +16,14 @@
 Pluto
 =====
 
-Welcome to **PLUTO**! Pluto is an autonomous delivery robot for fresh beverages developed by the IPEK institute at
+Welcome to **PLUTO**!
+
+Pluto is an autonomous delivery robot for fresh beverages developed by the IPEK institute at
 KIT (Karlsruhe Institute of Technology).
 
 
 
-.. image:: groupPicture.jpeg
+.. image:: docs/0_introduction/pluto-6.0.jpeg
   :width: 800
   :alt: Pluto 6.0
 
